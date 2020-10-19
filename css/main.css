@@ -2,3 +2,24 @@
     background-color: yellow;
     color: black;
 }
+
+.btn {
+    padding: 10 px 10 px 10 px 10 px;
+    color: red;
+    background-color: green;
+    width: 100%;
+}
+
+.footer {
+    padding: 10 px 10 px 10 px 10 px;
+    background-color: yellow;
+    margin-bottom: 0 px;
+    margin-top: 20 px;
+    color: black;
+}
+
+.card-hotel {
+    flex: 1 150px;
+    padding-right: 5px 5px 5px 5px;
+    margin: 2px 2px 2px 2px;
+}
