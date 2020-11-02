@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css" crossorigin="anonymous">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Hoteles de Nicaragua</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
         <a href="#" class="navbar-brand">Hoteles Nicaragua</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Mnu_1" aria-label="Toggle navigation">
@@ -24,10 +26,10 @@
                 <li class="nav-item">
                     <a href="./index.html" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="./about.html" class="nav-link">Nosotros</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="./precios.html" class="nav-link">Precios</a>
                 </li>
                 <li class="nav-item">
@@ -41,6 +43,7 @@
         </div>
     </nav>
 
+
     <div class="jumbotron">
         <h1>Hoteles de Nicaragua</h1>
         </br>Un paraiso en la tierra.
@@ -49,13 +52,14 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">Nosotros</li>
+                <li class="breadcrumb-item active">precios</li>
             </ol>
         </nav>
         <span>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, magnam ab. Quibusdam blanditiis autem, unde dignissimos, cupiditate est recusandae ad, a perspiciatis nam sed minus! Ut eligendi modi ratione nihil?
         </span>
     </div>
+
     <br>
     <footer class="footer">
         <div class="row">
@@ -67,10 +71,10 @@
             </div>
             <div class="col-sm-4">
                 <address>
-                    Oficina Central</br>
-                    Managua , Nicaragua, </br>
-                    Donde fue la subasta wc arriba</br>
-                    226745635
+                    <span class="oi oi-home"></span> Oficina Central</br>
+                    <span class="oi oi-location"></span> Managua , Nicaragua, </br>
+                    <span class="oi oi-phone"></span> 226745635</br>
+                    <span class="oi oi-inbox"></span> reservas@guiahoteles.com
             </address>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-end">
@@ -80,7 +84,7 @@
                 <a href="http://www.google.com">Contactanos</a>
             </div>
         </div>
-
+        <span class="iconic iconic-laptop" title="laptop" aria-hidden="true"></span>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
